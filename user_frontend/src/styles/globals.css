@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f5f8fc;                /* very light blue-gray */
+  --foreground: #1a202c;
+  --primary: #2563eb;                   /* Tailwind blue-600 */
+  --primary-light: #3b82f6;             /* Tailwind blue-500 */
+  --primary-muted: #e0edff;             /* light blue bg */
+  --secondary: #4b5563;
+  --header-bg: #e6f0ff;                 /* soft blue header */
+  --section-light: #f0f6ff;             /* blue-50 variant */
+  --section-muted: #dbeafe;             /* blue-100 */
+  --footer-bg: #1e293b;                 /* dark navy */
+  --footer-text: #f1f5f9;               /* light gray-blue */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+
+body {
+  background: linear-gradient(to right, #5f97db, #87c7eb);
+  min-height: 100vh; 
+}
+
+
